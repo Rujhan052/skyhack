@@ -1,6 +1,6 @@
-# ✈️ Flight Operational Difficulty Analysis – Data Analytics Project
+# Flight Operational Difficulty Analysis – Data Analytics Project
 
-## 🏆 Project Information
+## Project Information
 - **Event:** United Airlines SkyHack 3.0  
 - **Team Name:** Stat Pirates  
 - **Category:** Data Analytics – Flight Delay Prediction & Insights  
@@ -8,14 +8,14 @@
   - Ritvik Kumar  
   - Rujhan N Sharma
 
-## 📘 Overview
+## Overview
 Flight delays are one of the most critical challenges in aviation, impacting passenger satisfaction, airline operations, and overall efficiency.  
 This project performs an in-depth **Exploratory Data Analysis (EDA)** on flight operation data to identify **key causes of flight delays**, assess **operational efficiency**, and suggest **data-driven solutions** to minimize disruptions.
 The dataset used in this project was provided by United Airlines for their Data Analytics Hackathon, called SkyHack 3.0.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 The main goals of this project are:
 - To analyze the operational and service-related factors contributing to flight delays.
 - To study patterns in **flight difficulty, baggage handling, special service requests, and scheduling**.
@@ -24,7 +24,7 @@ The main goals of this project are:
 
 ---
 
-## 🧩 Dataset Description
+## Dataset Description
 The dataset contains detailed information about flight schedules, passenger services, baggage handling, and performance indicators.
 
 ### **Key Columns**
@@ -39,7 +39,7 @@ The dataset contains detailed information about flight schedules, passenger serv
 
 ---
 
-## 🧠 Data Preprocessing
+## Data Preprocessing
 Before analysis, several data cleaning and transformation steps were applied:
 1. **Data Normalization:** Column names converted to lowercase for consistency.  
 2. **Handling Missing Values:** Missing entries in delay and service columns were filled or removed appropriately.  
@@ -50,16 +50,16 @@ Before analysis, several data cleaning and transformation steps were applied:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### **1. Flight Delay Trends**
 - Analyzed **daily count of delayed flights** to identify peaks and operational bottlenecks.  
-- Observed highest delay count on **August 10 (382 delays)** — possible congestion or weather interference.  
+- Observed highest delay count on **August 10 (382 delays)**, possible congestion or weather interference.  
 - Average daily delays range between **150–380 flights**.
 
 ### **2. Last-Minute Baggage Behavior**
 - **Daily average last-minute checked bags** ranged between **50–80 per day**.
-- Peak observed on **August 9 (80 bags)** — correlated with highest delay count.
+- Peak observed on **August 9 (80 bags)**, correlated with highest delay count.
 - Indicates a relationship between **late baggage processing and flight delays**.
 
 ### **3. Flight Difficulty Score (FDS)**
@@ -79,7 +79,7 @@ Before analysis, several data cleaning and transformation steps were applied:
 ---
 
 ## ⚙️ Correlation Analysis
-- Positive correlation between **Flight Difficulty Score** and **Average Delay** — complex flights are more prone to late arrivals.
+- Positive correlation between **Flight Difficulty Score** and **Average Delay**, complex flights are more prone to late arrivals.
 - Strong link between **Transfer Baggage Load** and **Ground Time Violation**.
 - Routes with higher **Operational Complexity Scores** showed greater **delay variance**.
 
@@ -93,7 +93,7 @@ Before analysis, several data cleaning and transformation steps were applied:
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 ### **Operational Improvements**
 - Add **buffer time** in turnaround schedules for high-complexity flights.  
@@ -121,13 +121,13 @@ Before analysis, several data cleaning and transformation steps were applied:
 
 ---
 
-## 💡 Conclusion
+## Conclusion
 The analysis reveals that flight delays are primarily driven by **operational complexity**, **ground handling inefficiencies**, and **airport congestion**.  
 By integrating **predictive analytics**, improving **baggage and passenger service management**, and adopting **data-driven scheduling**, airlines can reduce average delays by **15–25%** across key routes.
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 **Ritvik Kumar** | *B.Tech Electrical Engineering DTU, Batch of 2026* 
 
 📧 Email: ritvikkumar.official04@gmail.com 
